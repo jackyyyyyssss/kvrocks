@@ -40,6 +40,7 @@ inline size_t RawPopcount(const uint8_t *p, int64_t count) {
   }
 
   return bits;
+  
 }
 
 template <typename T = void>
